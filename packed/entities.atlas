@@ -18,6 +18,13 @@ crosshair-blockpicking
   orig: 16, 16
   offset: 0, 0
   index: -1
+debug
+  rotate: false
+  xy: 160, 32
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
 drill
   rotate: false
   xy: 64, 0
