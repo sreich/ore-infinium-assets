@@ -13,14 +13,14 @@ air-generator-64x64
   index: -1
 crosshair-blockpicking
   rotate: false
-  xy: 160, 48
+  xy: 169, 48
   size: 16, 16
   orig: 16, 16
   offset: 0, 0
   index: -1
 debug
   rotate: false
-  xy: 160, 32
+  xy: 169, 32
   size: 16, 16
   orig: 16, 16
   offset: 0, 0
@@ -41,8 +41,15 @@ player-32x64
   index: -1
 power-node-circle
   rotate: false
-  xy: 176, 48
+  xy: 185, 48
   size: 16, 16
   orig: 16, 16
+  offset: 0, 0
+  index: -1
+power-node-line
+  rotate: false
+  xy: 160, 8
+  size: 9, 56
+  orig: 9, 56
   offset: 0, 0
   index: -1
