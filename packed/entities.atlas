@@ -39,3 +39,10 @@ player-32x64
   orig: 32, 64
   offset: 0, 0
   index: -1
+power-node-circle
+  rotate: false
+  xy: 176, 48
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
