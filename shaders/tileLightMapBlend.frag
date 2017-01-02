@@ -14,5 +14,5 @@ void main()
 {
     //gl_FragColor = v_color * texture2D(u_texture, v_texCoords);
     //gl_FragColor = v_color * texture2D(u_texture, v_texCoords) * vec4(1.0, 0.0, 0.0, 1.0);
-    gl_FragColor = (v_color * vec4(0.0001)) + (texture2D(u_texture, v_texCoords) ) + (texture2D(u_lightmap, v_texCoords));
+    gl_FragColor = (v_color * vec4(0.0001)) + (texture2D(u_texture, v_texCoords) ) * (texture2D(u_lightmap, v_texCoords));
 }
